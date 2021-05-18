@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Clarity Web Application Test Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.myCare.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="myCarePortal Automation Test Cases(failed)">
+    <classes>
+      <class name="com.myCare.qa.testcases.EnrolmentPageTest">
+        <methods>
+          <include name="RegisterNewPatient"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.myCare.qa.testcases.EnrolmentPageTest -->
+      <class name="com.myCare.qa.testcases.OrganisationPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="editProviderTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.myCare.qa.testcases.OrganisationPageTest -->
+      <class name="com.myCare.qa.testcases.UsersPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="UsersRoleTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.myCare.qa.testcases.UsersPageTest -->
+    </classes>
+  </test> <!-- myCarePortal Automation Test Cases(failed) -->
+</suite> <!-- Failed suite [Clarity Web Application Test Automation Test Suite] -->

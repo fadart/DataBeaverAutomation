@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Beaver Web Application Test Automation Test Suite">
+
+	<listeners>
+		<listener
+			class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+
+	<test name="BeaverWeb Automation Test Cases">
+		<classes>
+			<class name="com.myCare.qa.testcases.DashboardPageTest"></class>
+			<class name="com.myCare.qa.testcases.EnrolmentPageTest"></class>
+			<class name="com.myCare.qa.testcases.LoginPageTest"></class>
+			<class name="com.myCare.qa.testcases.OrganisationPageTest"></class>
+			<class name="com.myCare.qa.testcases.QuestionnairePageTest"></class>
+			<class name="com.myCare.qa.testcases.SettingsPageTest"></class>
+			<class name="com.myCare.qa.testcases.UsersPageTest"></class>
+		</classes>
+	</test>
+</suite>
